@@ -1,0 +1,5 @@
+batterylevel	80%
+humidity	58%
+illumination	12000 Lumens
+temperature	26 Degrees
+solarpanel	On
