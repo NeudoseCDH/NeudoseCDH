@@ -17,6 +17,6 @@ How to start: (SQLite must be installed)
 6. On the second terminal, start client by typing command:    $./client #YOUR IP ADDRESS# #PORT# 
 (ex:  ./client 192.168.0.126 10000).
 
-6. Now the communication is built, do a simple registration then login to your account.
+6. Now the communication is built, do a User Login in (username: neudose1  password: 123).
 
 7. Query the status you want on the client side (ex: batterylevel, humidity, illumination, temperature & solarpanel).
