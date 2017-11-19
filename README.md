@@ -7,7 +7,7 @@ How to start: (SQLite must be installed)
 
 2. Cd into NeudoseCDH folder.
 
-3. Using command:   $make     to perform makefile compiling.
+3. Using command:   $make     to perform makefile compiling (make sure gcc is installed).
 
 4. Open up two terminals on your Mac/Linux (also works with two different computers, just make sure the IP address is reachable).
 
