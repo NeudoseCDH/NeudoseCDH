@@ -10,7 +10,7 @@ client:client.o
 	$(CC) $< -o $@ 
 	
 test:test.o
-	$(CC) $< -o $@ 
+	$(CC) $< -o $@ -lwiringPi
 	
 %*.o:%*.c
 	$(CC) $(CFLAGS) $< -o $@ 
