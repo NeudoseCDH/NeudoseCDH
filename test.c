@@ -79,8 +79,8 @@ int main( void )
 {
 	printf( "Raspberry Pi wiringPi DHT11 Temperature test program\n" );
 
-	//if ( wiringPiSetup() == -1 )
-	//	exit( 1 );
+	if ( wiringPiSetup() == -1 )
+		exit( 1 );
 
 	while ( 1 )
 	{
