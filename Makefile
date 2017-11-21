@@ -9,7 +9,7 @@ server:server.o
 client:client.o
 	$(CC) $< -o $@ 
 	
-test:T&H.o
+test:test.o
 	$(CC) $< -o $@ 
 	
 %*.o:%*.c
