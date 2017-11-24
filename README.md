@@ -20,3 +20,13 @@ How to start: (SQLite must be installed)
 6. Now the communication is built, do a User Login in (username: neudose1  password: 123).
 
 7. Query the status you want on the client side (ex: batterylevel, humidity, illumination, temperature & solarpanel).
+
+#The DHT sensor is controled by a python script running on Raspberry Pi & Adafruit Library is used for the hardware abstraction
+
+#Adafruit Python DHT Sensor Library: https://github.com/adafruit/Adafruit_Python_DHT
+
+Use the following command to do the environment setup:
+
+sudo apt-get update
+sudo apt-get install build-essential python-dev
+sudo python setup.py install
