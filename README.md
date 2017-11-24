@@ -27,6 +27,6 @@ How to start: (SQLite must be installed)
 
 Use the following command to do the environment setup:
 
-sudo apt-get update
-sudo apt-get install build-essential python-dev
-sudo python setup.py install
+1. sudo apt-get update
+2. sudo apt-get install build-essential python-dev
+3. sudo python setup.py install
