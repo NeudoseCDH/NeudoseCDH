@@ -1,16 +1,13 @@
 CC=gcc
 CFLAGS=-Wall -g -O2
 
-all:server client test
+all:server client 
 
 server:server.o
 	$(CC) $< -o $@ -lsqlite3 
 
 client:client.o
 	$(CC) $< -o $@ 
-	
-test:test.o
-	$(CC) $< -o $@ -lwiringPi
 	
 %*.o:%*.c
 	$(CC) $(CFLAGS) $< -o $@ 
@@ -19,5 +16,5 @@ test:test.o
 	clean
 
 clean:
-	rm *.o server client test
+	rm *.o server client
 
