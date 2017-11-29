@@ -51,11 +51,9 @@ if humidity is not None and temperature is not None:
     print('Temp={0:0.1f}*  Humidity={1:0.1f}%'.format(temperature, humidity))
     temp = str(round(temperature,1))
     humid = str(round(humidity,1))
-    
     fo = open("/home/pi/datalog.txt", "wb")
     fo.write("humidity"+ "    " + humid)
     fo.write("\ntemperature"+ "    " + temp)
-    
     fo.close()
     
 else:
